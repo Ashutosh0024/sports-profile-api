@@ -1,0 +1,22 @@
+http://localhost:8080
+
+
+Create Profile (POST)
+✔️ Endpoint: http://localhost:8080/api/profile
+Tests: Ensure a profile can be created, photo can be uploaded, and a valid response is returned.
+Get All Profiles (GET)
+
+✔️ Endpoint: http://localhost:8080/api/profile
+Tests: Ensure all profiles are listed in the response.
+Get Profile by ID (GET)
+
+✔️ Endpoint: http://localhost:8080/api/profile/{id}
+Tests: Ensure the correct profile is returned when providing a valid ID.
+Update Profile (PUT)
+
+✔️ Endpoint: http://localhost:8080/api/profile/{id}
+Tests: Ensure profile can be updated, and check that the photo URL remains valid after updates.
+Delete Profile (DELETE)
+
+✔️ Endpoint: http://localhost:8080/api/profile/{id}
+Tests: Ensure the profile is deleted correctly, and the response status is appropriate.
